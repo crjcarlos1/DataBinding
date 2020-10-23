@@ -86,4 +86,5 @@ class FragmentA : Fragment(), ProductAdapter.OnClickProduct {
         findNavController().navigate(R.id.action_fragmentA_to_fragmentB, bundle)
     }
 //com otro cambio
+    //otro cambio
 }
