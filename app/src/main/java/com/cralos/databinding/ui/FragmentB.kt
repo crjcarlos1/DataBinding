@@ -49,8 +49,6 @@ class FragmentB : Fragment(), OnClickBack {
 
     private fun saludo(){
         Log.e("TAG","Hola!!!")
-        //comentario
-        //otro comentario más
     }
 
 }
