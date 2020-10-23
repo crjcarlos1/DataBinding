@@ -85,5 +85,5 @@ class FragmentA : Fragment(), ProductAdapter.OnClickProduct {
         bundle.putParcelable("product", productSelected)
         findNavController().navigate(R.id.action_fragmentA_to_fragmentB, bundle)
     }
-
+//com
 }
