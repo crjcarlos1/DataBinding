@@ -1,6 +1,7 @@
 package com.cralos.databinding.ui
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -44,6 +45,10 @@ class FragmentB : Fragment(), OnClickBack {
 
     override fun closeProductDescription() {
         findNavController().popBackStack()
+    }
+
+    private fun saludo(){
+        Log.e("TAG","Hola!!!")
     }
 
 }
